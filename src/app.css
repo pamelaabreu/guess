@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* cursor: url('./assets/g_cursor.png'), auto; */
+}
+
+.w-input {
+    width: 50%;
+    min-height: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 175px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: url('./assets/write_cursor.png'), auto;
+}
+  
+.header {
+    display:block;
+    color: blue;
+    margin: 0 auto;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    width: 20%;
+    text-align: center;
+}
+
+.header-text {
+    color: blue;
+}
+
+.p-type {
+    color: red;
+}
